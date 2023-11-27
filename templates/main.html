@@ -6,7 +6,8 @@
 </head>
 <body>
     {% for product in final_products %}
-        <p>{{ product }}</p>
+        <p>{{ product.name }}</p>
+        <img  src="{{ product.image }}" alt="123">
     {% endfor %}
 </body>
 </html>
